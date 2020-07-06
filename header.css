@@ -1,35 +1,44 @@
-body{
-/* commentaires*/                                          
-/* font-family: 'Geneva', 'Tahoma', 'sans-serif';*/
+body {
+    /* commentaires*/
+    /* font-family: 'Geneva', 'Tahoma', 'sans-serif';*/
     font-family: 'Geneva', 'Tahoma', 'sans-serif';
-    margin:0px;
+    margin: 0px;
 }
 
-header{
-/*background: url('image.PNG');*/
-background-color: midnightblue;
-text-align: center;
-color:yellowgreen;
-padding: 30px 30px 150px 30px ;
-background-position: center center ;
+header {
+    /*background: url('image.PNG');*/
+    background-color: midnightblue;
+    text-align: center;
+    color: yellowgreen;
+    padding: 30px 30px 150px 30px;
+    background-position: center center;
 }
 
-header h1{
-    font-size:6em;
-    margin-top:150px;
-/*border-top: 2px solid rgba(255, 255, 255, 0.75);*/
-border-bottom: 2px solid rgba(255, 255, 255, 0.75);
-padding-bottom: 60px;
+header h1 {
+    font-size: 6em;
+    margin-top: 150px;
+    /*border-top: 2px solid rgba(255, 255, 255, 0.75);*/
+    border-bottom: 2px solid rgba(255, 255, 255, 0.75);
+    padding-bottom: 60px;
 }
 
-header h2{
+header h2 {
     font-size: 2.5em;
     margin-top: -25px;
     font-style: italic;
 }
 
-header h1, header h2{
-    text-shadow: 0em 0 5px rgba(157, 238, 6, 0.972) ;
-  
+header h1, header h2 {
+    text-shadow: 0em 0 5px rgba(157, 238, 6, 0.972);
 }
 
+header button {
+    padding: 15px;
+    width: 275;
+    font-size: 1.25em;
+    background-color: rgb(0, 155, 235);
+    color: white;
+    border: 10px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: rgba(157, 238, 6, 0.972);
+}
